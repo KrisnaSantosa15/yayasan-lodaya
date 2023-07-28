@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YAYASAN RUMAH YATIM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <script src="./Assets/script.js"></script>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="bg-transparent">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container">
+            <a class="navbar-brand" href="./index.html#beranda">
+              <img src="./Assets/Logo/Logo-Rumah-Yatim-Transparent.png" alt="Logo Rumah Yatim" height="48" width="64" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-capitalize" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html#beranda">beranda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#tentang-kami">tentang kami</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#visi-misi">visi misi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#berita-terbaru">berita</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#program-kami">program</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html#profil-developer">Developer</a>
+                </li>
+              </ul>
+              <ul class="d-flex navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <button class="btn btn-outline-primary shadow-primary" data-bs-toggle="modal" data-bs-target="#hubungiKamiModal" data-bs-whatever="info@rumah-yatim.org">Hubungi Kami</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <div class="breadcrumb-container bg-dark-subtle py-3 py-md-5">
+        <div class="container">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="./index.html#beranda">Beranda</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Tentang Kami</li>
+                </ol>
+            </nav>
+            <h3>Informasi Lengkap Tentang Kami</h3>
+        </div>
+    </div>
+    
+    <!-- Content -->
+    <div class="content bg-dark-subtle">
+
+        <div class="tentang-kami-detail py-3 pb-5">
+            <div class="container">
+                <ul class="nav nav-pills g-0 row rounded-top-4 bg-primary shadow" id="pills-tab" role="tablist">
+                    <li class="nav-item col-3" role="presentation">
+                        <div class="text-center nav-link rounded-top-4 rounded-end-0 rounded-bottom-0 text-white tab-pills-tentang-kami active" id="pills-sejarah-yayasan-tab" data-bs-toggle="pill" data-bs-target="#pills-sejarah-yayasan" type="button" role="tab" aria-controls="pills-sejarah-yayasan" aria-selected="true">
+                            <img src="./Assets/Icons/hourglass.svg" style="width: 30px; height: 30px;" alt="Sejarah Yayasan" class="img-fluid" loading="lazy">
+                            <p class="">Sejarah Yayasan</p>
+                        </div>
+                    </li>
+                    <li class="nav-item col-3" role="presentation">
+                        <div class="text-center nav-link rounded-0 tab-pills-tentang-kami text-white" id="pills-visi-misi-tab" data-bs-toggle="pill" data-bs-target="#pills-visi-misi" type="button" role="tab" aria-controls="pills-visi-misi" aria-selected="false">
+                            <img src="./Assets/Icons/rocket.svg" style="width: 30px; height: 30px;" alt="Visi Misi" class="img-fluid" loading="lazy">
+                            <p class="">Visi dan Misi</p>
+                        </div>
+                    </li>
+                    <li class="nav-item col-3" role="presentation">
+                        <div class="text-center nav-link rounded-0 tab-pills-tentang-kami text-white" id="pills-program-yayasan-tab" data-bs-toggle="pill" data-bs-target="#pills-program-yayasan" type="button" role="tab" aria-controls="pills-program-yayasan" aria-selected="false">
+                            <img src="./Assets/Icons/puzzle.svg" style="width: 30px; height: 30px;" alt="Program Yayasan" class="img-fluid" loading="lazy">
+                            <p class="">Program Yayasan</p>
+                        </div>
+                    </li>
+                    <li class="nav-item col-3" role="presentation">
+                        <div class="text-center nav-link rounded-top-4 rounded-bottom-0 tab-pills-tentang-kami text-white rounded-start-0" id="pills-struktur-pengurus-tab" data-bs-toggle="pill" data-bs-target="#pills-struktur-pengurus" type="button" role="tab" aria-controls="pills-struktur-pengurus" aria-selected="false">
+                            <img src="./Assets/Icons/people-tentang-kami.svg" style="width: 30px; height: 30px;" alt="Struktur Pengurus" class="img-fluid" loading="lazy">
+                            <p class="">Struktur Panitia</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="tab-content rounded-bottom-4 bg-white shadow" id="pills-tabContent">
+                    <!-- Sejarah Yayasan -->
+                    <div class="tab-pane fade show active" id="pills-sejarah-yayasan" role="tabpanel" aria-labelledby="pills-sejarah-yayasan-tab" tabindex="0">
+                        <div class="text-center p-5">
+                            <img src="./Assets/Logo/Logo-Rumah-Yatim.png" alt="Logo Rumah yatim" class="img-fluid p-3" style="width: 50%;">
+                            <p class="text-start text-dark-emphasis">
+
+                                Tujuh belas tahun lalu, seorang kepala keluarga bernama Abdullah wafat meninggalkan keempat anaknya yang masih sangat kecil ,di akibatkan penyakit ginjal menahun yang beliau derita. Zainab Hayati istrinya , yang seorang ibu rumah tangga terpaksa membesarkan keempat buah hatinya dengan sangat sederhana, karena peninggalan almarhum suami perlahan-lahan tergerus untuk memenuhi kebutuhan hidup anak-anaknya.
+
+                                <br>
+                                <br>
+                                
+                                Melihat keprihatinan yang dilalui Zainab Hayati dan keempat anaknya, beberapa orang teman Abdullah berinisiatif untuk membantu secara bergantian, namun keadaan mereka pun tak jauh berbeda harus menafkahi keluarga, sampai suatu hari tercetus sebuah ide untuk mendirikan yayasan sosial, bermula dari menyewa sebuah rumah di Jalan Terusan Jakarta No.241, Kota Bandung secara bergotong royong mereka memulai sebuah yayasan sosial, yang tanpa disadari ternyata antusias masyarakat sekitar dalam mengasihi anak yatim begitu tinggi, sesuai dengan nama yang terdaftar di Akta Pendirian yang di resmikan oleh notaris Dr. Wiratni Ahmadi, SH., dengan nama Yayasan Rumah Yatim Arrohman Indonesia.
+
+                                <br>
+                                <br>
+                                
+                                Pada 2017 Yayasan Rumah Yatim Arrohman Indonesia , resmi menjadi Laznas dimana berhak mengelola dana zakat serta dana sosial keagamaan lainnya sesuai dengan peraturan yang telah ditetapkan oleh Kementrian Agama dan Baznas Republik Indonesia, sehingga selain bergerak dalam memajukan pengasuhan dan pendidikan anak yatim, Yayasan Rumah Yatim Arrohman Indonesia kini mengelola dana zakat dan memajukan ekonomi umat melalui beberapa program usaha ekonomi produktif. Membantu masyarakat yang termasuk kedalam delapan asnaf zakat untuk memenuhi kebutuhan bahan pokok, pemeriksaan kesehatan bahkan membangun rumah layak huni, ratusan mitra telah terbantu dalam memperbaiki sarana prasarana tempat ibadah serta pondok pesantren, serta banyak ke baikan yang telah ditebar selama enam belas tahun berjalan , tentunya hal ini dapat tercapai atas izin Allah, kepercayaan para donatur serta kerja keras para relawan uang bekerja tanpa pamrih.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Visi Misi -->
+                    <div class="tab-pane fade" id="pills-visi-misi" role="tabpanel" aria-labelledby="pills-visi-misi-tab" tabindex="0">
+                        <div class="p-5 row">
+                            <div class="col-md-4 text-center">
+                                <h3>Visi</h3>
+                            </div>
+                            <div class="col-md-8">
+                                <p class="text-dark-emphasis">
+                                    Menjadi Lembaga Amil Zakat Nasional yang mampu mewujudkan peningkatan IPM (Indeks Pembangunan Manusia) umat dan terunggul dalam penerimaan, pengadministrasian dan penyaluran dana Zakat, Infaq, Shodaqoh di Indonesia. 
+                                </p>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <h3>Misi</h3>
+                            </div>
+                            <div class="col-md-8">
+                                <p>
+                                    <p class="text-dark-emphasis">1. Meningkatkan kualitas SDM (Sumber Daya Manusia) dalam pengelolaan dana Zakat, Infaq, Shodaqoh.</p>
+                                    <p class="text-dark-emphasis">2. Membantu meningkatkan kualitas pendidikan umat.</p>
+                                    <p class="text-dark-emphasis">3. Membantu meningkatkan kesehatan umat.</p>
+                                    <p class="text-dark-emphasis">4. Membantu meningkatkan kualitas ekonomi umat.</p>
+                                    <p class="text-dark-emphasis">5. Menjadi Lembaga Amil Zakat terunggul dalam penerimaan, pengelolaan dan penyaluran dana Zakat, Infaq, Shodaqoh.</p>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Program Yayasan -->
+                    <div class="tab-pane fade" id="pills-program-yayasan" role="tabpanel" aria-labelledby="pills-program-yayasan" tabindex="0">
+                        <div class="p-5">
+                            <div class="program-kami py-5" id="program-kami">
+                                <div class="container">
+                                  <div class="row justify-content-evenly">
+                                    <div class="col-12 col-md-4 mx-5 mb-3">
+                                      <img src="./Assets/Icons/Program/education-learning.svg" alt="Program Pendidikan" style="width: 50px; height: 50px;" class="img-fluid shadow-primary" loading="lazy">
+                                      <h5 class="program-title py-3">Program Pendidikan</h5>
+                                      <p class="text-dark-emphasis">Program pembiayaan sekolah untuk anak-anak yatim piatu untuk menuntut ilmu di sekolah dasar (negeri/swasta), Sekolah menengah atas (SMP) dan Sekolah menengah umum (SMU sederajat).</p>
+                                    </div>
+                                    <div class="col-12 col-md-4 mx-5 mb-3">
+                                      <img src="./Assets/Icons/Program/mosque.svg" style="width: 50px; height: 50px;" alt="Program Pembangunan" class="img-fluid shadow-primary" loading="lazy">
+                                      <h5 class="program-title py-3">Program Pembangunan</h5>
+                                      <p class="text-dark-emphasis">Renovasi Musholla, Musholla ini nantinya akan berkapsitas 200 orang, serta digunakan sebagai Kajian Lepas Kerja, kajian muslimah, program santri mukim, kegiatan sosial, pembinaan yatim.</p>
+                                    </div>
+                                    <div class="col-12 col-md-4 mx-5 mb-3">
+                                      <img src="./Assets/Icons/Program/family.svg" style="width: 50px; height: 50px;" alt="Program Asuh" class="img-fluid shadow-primary" loading="lazy">
+                                      <h5 class="program-title py-3">Program Asuh</h5>
+                                      <p class="text-dark-emphasis">Program pembiayaan kuliah untuk anak-anak yatim piatu yang telah lulus SMU atau sederajat dan telah dinyatakan lulus dari uji loyalitas, moral, budi pekerti dan mengikuti Hafalan al Qur’an selama satu tahun.</p>
+                                    </div>
+                                    <div class="col-12 col-md-4 mx-5 mb-3">
+                                      <img src="./Assets/Icons/Program/moon.svg" style="width: 50px; height: 50px;" alt="Program Kajian dan Dakwah" class="img-fluid shadow-primary" loading="lazy">
+                                      <h5 class="program-title py-3">Program Kajian dan Dakwah</h5>
+                                      <p class="text-dark-emphasis">Pengajian rutin setiap malam mulai habis sholat jamaah magrib sampai sholat jamaah isya’, dan Menyelenggarakan pengajaran bacaan baca tulis Al Qur’an untuk anak-anak, remaja dan dewasa.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Struktur Pengurus -->
+                    <div class="tab-pane fade" id="pills-struktur-pengurus" role="tabpanel" aria-labelledby="pills-struktur-pengurus-tab" tabindex="0">
+                        <div class="struktur-pengurus py-5 text-center">
+                            <img src="./Assets/struktur-organisasi-placeholder.jpeg" alt="Struktur Organisasi" style="width: 70%;" loading="lazy" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer bg-dark text-white-50 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 text-center text-md-start py-3">
+            <img src="./Assets/Logo/Logo-Rumah-Yatim-Transparent.png" alt="" class="img-fluid" width="50%" loading="lazy">
+            <div class="">
+              <p>Jl. Buah Batu No.296, Kel. Cijagra, Kec. Lengkong, Kota Bandung, Jawa Barat 40265</p>
+              <p><strong>Email: </strong> info@rumah-yatim.org</p>
+              <p><strong>Telepon: </strong> (022) 8732-9154</p>
+            </div>
+          </div>
+          <div class="col-md-3 py-3">
+            <p class="text-white fw-bold">Tentang Kami</p>
+            <p><a href="#profil-developer" class="nav-link footer-link">Developer</a></p>
+            <p><a href="#program-kami" class="nav-link footer-link">Program</a></p>
+            <p><a href="#berita-terbaru" class="nav-link footer-link">Berita</a></p>
+            <p><a href="#visi-misi" class="nav-link footer-link">Visi Misi</a></p>
+            <p><a href="#tentang-kami" class="nav-link footer-link">Tentang Kami</a></p>
+          </div>
+          <div class="col-md-3 py-3">
+            <p class="text-white fw-bold">Ikuti Kami</p>
+            <p><a href="https://www.facebook.com" class="nav-link footer-link"><img src="./Assets/Icons/Social-Media/facebook-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Facebook</a></p>
+            <p><a href="https://www.instagram.com" class="nav-link footer-link"><img src="./Assets/Icons/Social-Media/instagram-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Instagram</a></p>
+            <p><a href="https://www.youtube.com" class="nav-link footer-link"><img src="./Assets/Icons/Social-Media/youtube-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Youtube</a></p>
+            <p><a href="https://www.twitter.com" class="nav-link footer-link"><img src="./Assets/Icons/Social-Media/twitter-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Twitter</a></p>
+            <p><a href="https://www.linkedin.com" class="nav-link footer-link"><img src="./Assets/Icons/Social-Media/linkedin-rounded.svg" alt="" class="img-fluid" style="width: 20px;" loading="lazy"> Linkedin</a></p>
+          </div>
+          <div class="col-md-3 py-3 text-center">
+            <p class="text-white fw-bold">Peta Rumah Yatim</p>
+            <iframe class="ratio ratio-1x1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6595626832523!2d107.62339019999999!3d-6.931231899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e87e604880cd%3A0x79ae5a97ab83b594!2sRumah%20Yatim!5e0!3m2!1sen!2sid!4v1689835409019!5m2!1sen!2sid" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 border-top border-secondary text-center">
+            <p class="pt-3 fs-6"> © 2023 All rights reserved. Dibuat dengan <span class="text-danger">❤</span> oleh Krisna Santosa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Button to Upper the page -->
+    <div class="fixed-bottom justify-content-end d-flex me-4 mb-4">
+      <button class="btn btn-primary py-2 px-4" onclick="topFunction()" id="to-top">
+        ↑
+      </button>
+    </div>
+
+        <!-- Modal Hubungi Kami -->
+        <div class="modal fade" id="hubungiKamiModal" tabindex="-1" aria-labelledby="hubungiKamiModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="hubungiKamiessage">Hubungi Kami</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                  <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Penerima:</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Pesan:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                  <button type="button" class="btn btn-primary" id="liveToastBtn" data-bs-dismiss="modal" >Kirim</button>
+              </div>
+              </div>
+          </div>
+      </div>
+  
+                <!-- Toast -->
+      <div class="toast-container position-fixed top-0 end-0 p-3">
+          <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="2000">
+            <div class="toast-header">
+              <strong class="me-auto">Berhasil</strong>
+              <small>baru saja</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Pesan telah dikirim.
+            </div>
+          </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script>
+      const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+      // Modal
+      const hubungiKamiModal= document.getElementById('hubungiKamiModal')
+      if (hubungiKamiModal) {
+        hubungiKamiModal.addEventListener('show.bs.modal', event => {
+          // Button that triggered the modal
+          const button = event.relatedTarget
+          // Extract info from data-bs-* attributes
+          const recipient = button.getAttribute('data-bs-whatever')
+          // If necessary, you could initiate an Ajax request here
+          // and then do the updating in a callback.
+
+          // Update the modal's content.
+          const modalTitle = hubungiKamiModal.querySelector('.modal-title')
+          const modalBodyInput = hubungiKamiModal.querySelector('.modal-body input')
+
+          modalTitle.textContent = `Kirim Pesan ke ${recipient}`
+          modalBodyInput.value = recipient
+        })
+      }
+
+      // Toast
+      const toastTrigger = document.getElementById('liveToastBtn')
+      const toastLiveExample = document.getElementById('liveToast')
+
+      if (toastTrigger) {
+        const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+        toastTrigger.addEventListener('click', () => {
+          toastBootstrap.show()
+        })
+      }
+  </script>
+  </body>
+</html>
