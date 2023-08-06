@@ -4,6 +4,10 @@
 
 Welcome to **Website Yayasan Lodaya**! 🚀
 
+### Link: [Website Yayasan Lodaya](https://krisnasantosa15.github.io/yayasan-lodaya/)
+
+Open Source Website for Yayasan Lodaya, Bandung. This project is built with HTML, CSS, and JavaScript. This project is built with the help of [Bootstrap](https://getbootstrap.com/), [SVG Repo](https://www.svgrepo.com/), and [Google Fonts](https://fonts.google.com/).
+
 ## 📚 About
 
 Hey there! Thanks for checking out **Website Yayasan Lodaya**. This project is all information about Yayasan Rumah yatim Lodaya, Bandung. Our main goal is to give the visitor information about the latest news, programs, etc. about Yayasan Lodaya. 😉
@@ -15,6 +19,12 @@ Here are the key features that make **Website Yayasan Lodaya** shine:
 - ✨ Programs: Latest Activities of Yayasan Lodaya
 - ✨ News: Latest News of Yayasan Lodaya
 - ✨ Information: Information about Yayasan Lodaya
+
+## 📸 Screenshots
+
+Here are overviews of **Website Yayasan Lodaya**:
+
+![Overview](./Assets/web-overview.png)
 
 ## 🚀 Getting Started
 
